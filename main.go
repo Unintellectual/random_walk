@@ -7,7 +7,7 @@ func main() {
 	defer rl.CloseWindow()
 
 	rl.SetTargetFPS(60)
-
+	
 	for !rl.WindowShouldClose() {
 		rl.BeginDrawing()
 
